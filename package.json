@@ -1,0 +1,26 @@
+{
+  "name": "doctor-ip-ebook",
+  "version": "1.0.0",
+  "description": "美容医生IP建设电子书项目",
+  "main": "build/build.js",
+  "scripts": {
+    "build": "node build/build.js",
+    "validate": "node build/validate.js",
+    "generate-svg": "node build/generate-svg.js",
+    "dev": "npm run build && npm run validate",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "医美",
+    "IP建设",
+    "品牌",
+    "合规",
+    "电子书"
+  ],
+  "author": "Doctor IP Team",
+  "license": "MIT",
+  "devDependencies": {
+    "marked": "^9.1.6",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}

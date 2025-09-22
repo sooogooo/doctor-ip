@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="600" height="500">
+            <defs>
+                <style>
+                    .title { font: bold 16px sans-serif; fill: #2c5aa0; }
+                    .level { font: bold 14px sans-serif; fill: white; }
+                    .description { font: 11px sans-serif; fill: white; }
+                    .level1 { fill: #2c5aa0; }
+                    .level2 { fill: #3498db; }
+                    .level3 { fill: #27ae60; }
+                    .level4 { fill: #f39c12; }
+                    .level5 { fill: #e74c3c; }
+                </style>
+            </defs>
+            
+            <!-- 标题 -->
+            <text x="300" y="30" text-anchor="middle" class="title">医美品牌资产金字塔</text>
+            
+            <!-- 第一层：品牌知名度 -->
+            <polygon points="200,400 400,400 350,350 250,350" class="level1"/>
+            <text x="300" y="370" text-anchor="middle" class="level">品牌知名度</text>
+            <text x="300" y="385" text-anchor="middle" class="description">行业认知 · 媒体曝光 · 搜索指数</text>
+            
+            <!-- 第二层：专业权威性 -->
+            <polygon points="220,350 380,350 340,300 260,300" class="level2"/>
+            <text x="300" y="320" text-anchor="middle" class="level">专业权威性</text>
+            <text x="300" y="335" text-anchor="middle" class="description">学术地位 · 临床经验 · 同行认可</text>
+            
+            <!-- 第三层：用户信任度 -->
+            <polygon points="240,300 360,300 330,250 270,250" class="level3"/>
+            <text x="300" y="270" text-anchor="middle" class="level">用户信任度</text>
+            <text x="300" y="285" text-anchor="middle" class="description">口碑评价 · 案例效果 · 服务质量</text>
+            
+            <!-- 第四层：品牌联想度 -->
+            <polygon points="260,250 340,250 320,200 280,200" class="level4"/>
+            <text x="300" y="220" text-anchor="middle" class="level">品牌联想度</text>
+            <text x="300" y="235" text-anchor="middle" class="description">专业特色 · 价值理念 · 服务承诺</text>
+            
+            <!-- 第五层：品牌忠诚度 -->
+            <polygon points="280,200 320,200 310,150 290,150" class="level5"/>
+            <text x="300" y="170" text-anchor="middle" class="level">品牌忠诚度</text>
+            <text x="300" y="185" text-anchor="middle" class="description">复购率 · 推荐率 · 情感连接</text>
+            
+            <!-- 说明文字 -->
+            <text x="50" y="450" class="description" fill="#34495e">
+                基础层面：建立基本认知和专业形象
+            </text>
+            <text x="50" y="470" class="description" fill="#34495e">
+                核心层面：获得用户信任和品牌认同
+            </text>
+            <text x="400" y="450" class="description" fill="#34495e">
+                高级层面：实现品牌联想和用户忠诚
+            </text>
+        </svg>

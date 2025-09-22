@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="600" height="500">
+            <defs>
+                <style>
+                    .title { font: bold 16px sans-serif; fill: #2c5aa0; }
+                    .label { font: 12px sans-serif; fill: #34495e; }
+                    .axis-label { font: 14px sans-serif; fill: #34495e; }
+                    .quadrant { font: bold 14px sans-serif; fill: white; }
+                    .quadrant-bg { opacity: 0.8; }
+                </style>
+            </defs>
+            
+            <!-- 标题 -->
+            <text x="300" y="30" text-anchor="middle" class="title">医美IP定位四象限模型</text>
+            
+            <!-- 坐标轴 -->
+            <line x1="100" y1="400" x2="500" y2="400" stroke="#34495e" stroke-width="2"/>
+            <line x1="300" y1="80" x2="300" y2="400" stroke="#34495e" stroke-width="2"/>
+            
+            <!-- 轴标签 -->
+            <text x="300" y="440" text-anchor="middle" class="axis-label">传播广度</text>
+            <text x="50" y="250" text-anchor="middle" class="axis-label" transform="rotate(-90 50 250)">专业深度</text>
+            
+            <!-- 象限背景 -->
+            <rect x="100" y="80" width="200" height="160" fill="#2c5aa0" class="quadrant-bg"/>
+            <rect x="300" y="80" width="200" height="160" fill="#3498db" class="quadrant-bg"/>
+            <rect x="100" y="240" width="200" height="160" fill="#e74c3c" class="quadrant-bg"/>
+            <rect x="300" y="240" width="200" height="160" fill="#27ae60" class="quadrant-bg"/>
+            
+            <!-- 象限标题 -->
+            <text x="200" y="110" text-anchor="middle" class="quadrant">学术专家型</text>
+            <text x="400" y="110" text-anchor="middle" class="quadrant">科普教育型</text>
+            <text x="200" y="270" text-anchor="middle" class="quadrant">临床实战型</text>
+            <text x="400" y="270" text-anchor="middle" class="quadrant">服务顾问型</text>
+            
+            <!-- 象限描述 -->
+            <text x="200" y="140" text-anchor="middle" class="label" fill="white">高专业深度</text>
+            <text x="200" y="155" text-anchor="middle" class="label" fill="white">窄传播范围</text>
+            <text x="200" y="180" text-anchor="middle" class="label" fill="white">权威地位</text>
+            
+            <text x="400" y="140" text-anchor="middle" class="label" fill="white">中等专业深度</text>
+            <text x="400" y="155" text-anchor="middle" class="label" fill="white">广传播范围</text>
+            <text x="400" y="180" text-anchor="middle" class="label" fill="white">科普达人</text>
+            
+            <text x="200" y="300" text-anchor="middle" class="label" fill="white">高专业深度</text>
+            <text x="200" y="315" text-anchor="middle" class="label" fill="white">中等传播范围</text>
+            <text x="200" y="340" text-anchor="middle" class="label" fill="white">临床经验</text>
+            
+            <text x="400" y="300" text-anchor="middle" class="label" fill="white">中等专业深度</text>
+            <text x="400" y="315" text-anchor="middle" class="label" fill="white">广传播范围</text>
+            <text x="400" y="340" text-anchor="middle" class="label" fill="white">服务优化</text>
+            
+            <!-- 刻度 -->
+            <text x="150" y="420" text-anchor="middle" class="label">窄</text>
+            <text x="450" y="420" text-anchor="middle" class="label">广</text>
+            <text x="80" y="350" text-anchor="middle" class="label">低</text>
+            <text x="80" y="130" text-anchor="middle" class="label">高</text>
+        </svg>
