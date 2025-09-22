@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" width="700" height="500">
+            <defs>
+                <style>
+                    .title { font: bold 16px sans-serif; fill: #2c5aa0; }
+                    .header { font: bold 14px sans-serif; fill: white; }
+                    .cell-text { font: 12px sans-serif; fill: #34495e; }
+                    .matrix-header { fill: #2c5aa0; }
+                    .matrix-cell { fill: #ecf0f1; stroke: #34495e; stroke-width: 1; }
+                </style>
+            </defs>
+            
+            <!-- 标题 -->
+            <text x="350" y="30" text-anchor="middle" class="title">医美内容生产矩阵</text>
+            
+            <!-- 表头 -->
+            <rect x="50" y="60" width="100" height="40" class="matrix-header"/>
+            <text x="100" y="85" text-anchor="middle" class="header">内容类型</text>
+            
+            <rect x="150" y="60" width="130" height="40" class="matrix-header"/>
+            <text x="215" y="85" text-anchor="middle" class="header">基础科普</text>
+            
+            <rect x="280" y="60" width="130" height="40" class="matrix-header"/>
+            <text x="345" y="85" text-anchor="middle" class="header">进阶教育</text>
+            
+            <rect x="410" y="60" width="130" height="40" class="matrix-header"/>
+            <text x="475" y="85" text-anchor="middle" class="header">前沿技术</text>
+            
+            <rect x="540" y="60" width="130" height="40" class="matrix-header"/>
+            <text x="605" y="85" text-anchor="middle" class="header">案例分享</text>
+            
+            <!-- 行标题和内容 -->
+            <rect x="50" y="100" width="100" height="50" class="matrix-header"/>
+            <text x="100" y="115" text-anchor="middle" class="header">知识科普</text>
+            <text x="100" y="135" text-anchor="middle" class="header">(40%)</text>
+            
+            <rect x="150" y="100" width="130" height="50" class="matrix-cell"/>
+            <text x="215" y="115" text-anchor="middle" class="cell-text">基础概念</text>
+            <text x="215" y="130" text-anchor="middle" class="cell-text">常见问题</text>
+            <text x="215" y="145" text-anchor="middle" class="cell-text">预防保健</text>
+            
+            <rect x="280" y="100" width="130" height="50" class="matrix-cell"/>
+            <text x="345" y="115" text-anchor="middle" class="cell-text">原理解析</text>
+            <text x="345" y="130" text-anchor="middle" class="cell-text">对比分析</text>
+            <text x="345" y="145" text-anchor="middle" class="cell-text">深度科普</text>
+            
+            <rect x="410" y="100" width="130" height="50" class="matrix-cell"/>
+            <text x="475" y="115" text-anchor="middle" class="cell-text">最新技术</text>
+            <text x="475" y="130" text-anchor="middle" class="cell-text">学术观点</text>
+            <text x="475" y="145" text-anchor="middle" class="cell-text">行业趋势</text>
+            
+            <rect x="540" y="100" width="130" height="50" class="matrix-cell"/>
+            <text x="605" y="115" text-anchor="middle" class="cell-text">科普案例</text>
+            <text x="605" y="130" text-anchor="middle" class="cell-text">误区纠正</text>
+            <text x="605" y="145" text-anchor="middle" class="cell-text">成功预防</text>
+            
+            <!-- 第二行 -->
+            <rect x="50" y="150" width="100" height="50" class="matrix-header"/>
+            <text x="100" y="165" text-anchor="middle" class="header">经验分享</text>
+            <text x="100" y="185" text-anchor="middle" class="header">(30%)</text>
+            
+            <rect x="150" y="150" width="130" height="50" class="matrix-cell"/>
+            <text x="215" y="165" text-anchor="middle" class="cell-text">日常护理</text>
+            <text x="215" y="180" text-anchor="middle" class="cell-text">简单技巧</text>
+            <text x="215" y="195" text-anchor="middle" class="cell-text">生活建议</text>
+            
+            <rect x="280" y="150" width="130" height="50" class="matrix-cell"/>
+            <text x="345" y="165" text-anchor="middle" class="cell-text">专业技巧</text>
+            <text x="345" y="180" text-anchor="middle" class="cell-text">实操经验</text>
+            <text x="345" y="195" text-anchor="middle" class="cell-text">问题处理</text>
+            
+            <rect x="410" y="150" width="130" height="50" class="matrix-cell"/>
+            <text x="475" y="165" text-anchor="middle" class="cell-text">创新应用</text>
+            <text x="475" y="180" text-anchor="middle" class="cell-text">技术心得</text>
+            <text x="475" y="195" text-anchor="middle" class="cell-text">研究分享</text>
+            
+            <rect x="540" y="150" width="130" height="50" class="matrix-cell"/>
+            <text x="605" y="165" text-anchor="middle" class="cell-text">临床案例</text>
+            <text x="605" y="180" text-anchor="middle" class="cell-text">处理过程</text>
+            <text x="605" y="195" text-anchor="middle" class="cell-text">经验总结</text>
+            
+            <!-- 第三行 -->
+            <rect x="50" y="200" width="100" height="50" class="matrix-header"/>
+            <text x="100" y="215" text-anchor="middle" class="header">观点表达</text>
+            <text x="100" y="235" text-anchor="middle" class="header">(20%)</text>
+            
+            <rect x="150" y="200" width="130" height="50" class="matrix-cell"/>
+            <text x="215" y="215" text-anchor="middle" class="cell-text">健康理念</text>
+            <text x="215" y="230" text-anchor="middle" class="cell-text">美学观点</text>
+            <text x="215" y="245" text-anchor="middle" class="cell-text">生活态度</text>
+            
+            <rect x="280" y="200" width="130" height="50" class="matrix-cell"/>
+            <text x="345" y="215" text-anchor="middle" class="cell-text">专业见解</text>
+            <text x="345" y="230" text-anchor="middle" class="cell-text">行业分析</text>
+            <text x="345" y="245" text-anchor="middle" class="cell-text">发展预测</text>
+            
+            <rect x="410" y="200" width="130" height="50" class="matrix-cell"/>
+            <text x="475" y="215" text-anchor="middle" class="cell-text">学术观点</text>
+            <text x="475" y="230" text-anchor="middle" class="cell-text">创新思考</text>
+            <text x="475" y="245" text-anchor="middle" class="cell-text">前瞻性见解</text>
+            
+            <rect x="540" y="200" width="130" height="50" class="matrix-cell"/>
+            <text x="605" y="215" text-anchor="middle" class="cell-text">观点案例</text>
+            <text x="605" y="230" text-anchor="middle" class="cell-text">实践验证</text>
+            <text x="605" y="245" text-anchor="middle" class="cell-text">效果展示</text>
+            
+            <!-- 第四行 -->
+            <rect x="50" y="250" width="100" height="50" class="matrix-header"/>
+            <text x="100" y="265" text-anchor="middle" class="header">互动问答</text>
+            <text x="100" y="285" text-anchor="middle" class="header">(10%)</text>
+            
+            <rect x="150" y="250" width="130" height="50" class="matrix-cell"/>
+            <text x="215" y="265" text-anchor="middle" class="cell-text">常见疑问</text>
+            <text x="215" y="280" text-anchor="middle" class="cell-text">基础答疑</text>
+            <text x="215" y="295" text-anchor="middle" class="cell-text">简单解答</text>
+            
+            <rect x="280" y="250" width="130" height="50" class="matrix-cell"/>
+            <text x="345" y="265" text-anchor="middle" class="cell-text">专业问题</text>
+            <text x="345" y="280" text-anchor="middle" class="cell-text">深度解析</text>
+            <text x="345" y="295" text-anchor="middle" class="cell-text">技术答疑</text>
+            
+            <rect x="410" y="250" width="130" height="50" class="matrix-cell"/>
+            <text x="475" y="265" text-anchor="middle" class="cell-text">前沿问题</text>
+            <text x="475" y="280" text-anchor="middle" class="cell-text">学术讨论</text>
+            <text x="475" y="295" text-anchor="middle" class="cell-text">研究探讨</text>
+            
+            <rect x="540" y="250" width="130" height="50" class="matrix-cell"/>
+            <text x="605" y="265" text-anchor="middle" class="cell-text">案例问答</text>
+            <text x="605" y="280" text-anchor="middle" class="cell-text">实际解决</text>
+            <text x="605" y="295" text-anchor="middle" class="cell-text">效果说明</text>
+        </svg>
